@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+}
+.red {
+    background-image: url(./img/header-wrapper-bg.png);
+}
+
+.dpink {
+    background-image: url(./img/banner-wrapper-bg.png);
+}
+
+.pink {
+    background-image: url(./img/page-wrapper-bg.png);
+}
+
+.brown {
+    background-image: url(./img/footer-content-bg-02.png);
+}
+
+.dbrown {
+    background-image: url(./img/wrapper-bg.png);
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapp1,
+.wrapp2,
+.wrapp3,
+.wrapp4,
+.wrapp5 {
+    width: 950px;
+    min-width: 950px;
+    display: flex;
+}
+
+
+
+.wrapp1 {
+    justify-content: space-between;
+    height: 187px;
+}
+
+.wrapp1 a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo a {
+    font-size: 48px;
+    font-style: italic;
+    border: 1px solid brown;
+    background-color: rgb(110, 10, 10);
+    border-radius: 8px;
+    font-family: cursive;
+    padding: 32px;
+}
+
+.menu ul {
+    display: flex;
+    height: 100%;
+}
+
+
+.menu .l1 {
+    border: 1px solid brown;
+    background-color: rgb(110, 10, 10);
+    border-radius: 8px;
+   
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    
+}
+.menu a {
+    padding: 4px 20px;
+    margin: 0 20px;
+}
+
+.wrapp2 {
+    color: white;
+    font-family: cursive;
+    font-size: 24px;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 24px 0;
+}
+
+.title {
+    background-image: url(./img/banner-caption-bg.png);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.title p {
+    text-align: center;
+    padding: 20px 0;
+}
+
+img {
+    width: 100%;   
+}
+
+.wrapp3 {
+    margin: 24px 0;
+}
+
+.blok {
+    flex: 1 1 33%;
+    border-radius: 4px;
+    overflow: visible;
+}
+.blok div {
+    color: white;
+    background-image: url(./img/footer-content-bg-01.png);
+} 
+
+.blok__flag {
+    position: relative;
+    padding: 20px 0;
+
+}
+
+.blok__flag img {
+    width: 108%;
+    position: relative;
+}
+
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid rgb(235, 214, 217);
+    position: absolute;
+    right: -8%;
+    top: 20px;
+}
+
+.blok__flag h3 {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.blok ul {
+    padding: 0 20px;
+}
+.blok li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+}
+.blok p {
+    padding: 0 20px;
+}
+
+.blok div:last-child {
+    padding-bottom: 20px;
+}
+
+
+.text {
+    background-color: white;
+    margin-right: 32px;
+    box-sizing: border-box;
+    padding: 20px 0;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 4px;
+    flex: 2 1 66%;
+}
+.text .flag {
+    background-image: url(./img/post-posted-bg.png);
+    background-repeat: no-repeat;
+    padding: 0 20px;
+    color: white;
+}
+.flag a {
+    color: white;
+}
+.text h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+.text img {
+    margin: 20px 0;
+    border-radius: 8px;
+    
+}
+
+.text__text p {
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+.textbottom {
+    background-image: url(./img/page-wrapper-bg.png);
+    border-radius: 4px;
+    color: rgb(114, 62, 62); 
+}
+.textbottom a {
+    color: rgb(114, 62, 62);
+}
+.textbottom ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.textbottom li {
+    padding: 20px;
+}
+
+.text__text,
+.textbottom {
+    margin: 0 20px;
+}
+
+.wrapp4 {
+    color: white;
+    
+}
+
+.d1 p,
+.blok p {
+    color: rgb(209, 171, 158);
+    line-height: 1.5;
+}
+.d1 {
+    background-image: url(./img/wrapper-bg.png);
+    padding: 28px;
+    margin: 32px 18px 32px 0;
+    text-align: justify;
+    border-radius: 4px;
+   
+}
+.d1:last-child {
+    margin-right: 0;
+}
+
+.wrapp4 h3 {
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.wrapp5 {
+    color: rgb(146, 84, 84);
+}
+.wrapp5 div {
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+.wrapp5 a {
+    color:rgb(146, 84, 84) ;
+}
