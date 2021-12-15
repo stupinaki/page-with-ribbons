@@ -129,8 +129,7 @@ img {
 
 .blok__flag {
     position: relative;
-    padding: 20px 0;
-
+    padding-top: 12px;
 }
 
 .blok__flag img {
@@ -147,7 +146,7 @@ img {
     border-right: 20px solid rgb(235, 214, 217);
     position: absolute;
     right: -8%;
-    top: 20px;
+    top: 12px;
 }
 
 .blok__flag h3 {
@@ -276,4 +275,19 @@ img {
 }
 .wrapp5 a {
     color:rgb(146, 84, 84) ;
+}
+
+.warning__message {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        display: none;
+    }
+
+    .warning__message {
+        display: block;
+        font-size: 46px;
+    }
 }
